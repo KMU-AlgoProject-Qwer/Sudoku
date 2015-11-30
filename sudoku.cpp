@@ -266,7 +266,7 @@ int main(void) {
 	file >> numCase;
 
 	for (int i = 0; i < numCase; i++){
-		alreadyFill = 0;
+		alreadyFill = 0, Finished = 0;
 		BuildData();
 		LoadPuzzle(file);
 		Search(0);
